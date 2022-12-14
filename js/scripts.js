@@ -23,7 +23,7 @@ function newItem(){
     //3rd action - delete an item on list 
     li.append(deleteButton);
 
-    deleteButton.on(click, deleteListItem);
+    deleteButton.on('click', deleteListItem);
 
     function deleteListItem() {
         li.addClass("delete");
